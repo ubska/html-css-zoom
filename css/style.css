@@ -3,3 +3,58 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* ////////HEADER START//////// */
+header{
+    width: 100%;
+    background-color:#000000;
+    /* DEBUG */
+    min-height: 100px;
+}
+
+.bt-header{
+    display: flex;
+    justify-content: flex-end;
+}
+/* ////////HEADER END//////// */
+
+
+
+
+
+
+
+/* ////////MAIN START//////// */
+.container{
+    width: 90%;
+    margin: 0 auto;
+    height: 100vh;
+    /* DEBUG */
+    background-color: #794a4a;
+}
+.users-box{
+    display: flex;
+
+    flex-wrap: wrap;
+}
+.user{
+    /* DEBUG */
+    width: 14%;
+    min-height: 150px;
+
+}
+
+.user-info{
+    position: relative;
+}
+.user-name{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: white;
+}
+/* ////////MAIND END//////// */
+
+
+/* ////////FOOTER START//////// */
+/* ////////FOOTER END//////// */
