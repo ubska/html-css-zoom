@@ -10,6 +10,10 @@ header{
     background-color:#000000;
     /* DEBUG */
     min-height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 900;
 }
 
 .bt-header{
@@ -25,22 +29,27 @@ header{
 
 
 /* ////////MAIN START//////// */
+main{
+    height: 100vh;
+    overflow: auto;
+}
 .container{
     width: 90%;
     margin: 0 auto;
     height: 100vh;
     /* DEBUG */
-    background-color: #794a4a;
+    margin-top: 200px;
 }
 .users-box{
     display: flex;
-
+    justify-content: space-evenly;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 .user{
     /* DEBUG */
     width: 14%;
-    min-height: 150px;
+    /* min-height: 150px; */
 
 }
 
@@ -53,8 +62,23 @@ header{
     bottom: 0;
     color: white;
 }
+img{
+    max-width: 100%;
+}
+
+.user-box{
+    flex-grow: 0;
+}
 /* ////////MAIND END//////// */
 
 
 /* ////////FOOTER START//////// */
+footer{
+    background-color: #000000;
+    width: 100%;
+    min-height: 100px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
 /* ////////FOOTER END//////// */
